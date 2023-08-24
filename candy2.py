@@ -1,6 +1,6 @@
 import random
 import pygame
-
+import pgzrun
 # The size of the board in tiles
 TILESW = 14
 TILESH = 10
@@ -125,3 +125,4 @@ def every_second():
 
 clock.schedule_interval(every_second, 0.5)
 
+pgzrun.go()
