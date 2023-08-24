@@ -110,7 +110,7 @@ def drop_tiles(x, y):
 def add_new_tiles():
     for x in range(TILESW):
         if board[0][x] is None and random.random() < NEW_TILE_PROB:
-            board[0][x] = random.randint(1, 9)
+            board[0][x] = random.randint(1, 11)
 
 
 score = 0
